@@ -1,0 +1,62 @@
+Add styles to the get-started-container
+.get-started-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+
+.header {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.template-selection ul {
+  list-style: none;
+  padding: 0;
+}
+
+.template-selection li {
+  cursor: pointer;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.template-selection li:hover {
+
+  border: 1px solid #999;
+}
+
+
+.username-input input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.username-input button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.username-input button:hover {
+  background-color: #0056b3;
+}
